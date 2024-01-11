@@ -22,8 +22,7 @@ public class Main {
         // This method reads the number provided using keyboard
         int num = scan.nextInt();
 
-        // Closing Scanner after the use
-        //  scan.close();
+       
         return num;
     }
 
@@ -34,11 +33,10 @@ public class Main {
             message = msg[0] ;
         System.out.print(message);
 
-        // This method reads the number provided using keyboard
+       
         String str = scan.nextLine();
 
-        // Closing Scanner after the use
-        //  scan.close();
+        
         return str;
     }
 
@@ -53,7 +51,7 @@ public class Main {
         System.out.println("5: Pour gérer les étudiants");
         System.out.println("0: Pour sortir");
 
-        //"Veuillez sélectionner une option : ")
+       
         int option = getIntInput("Veuillez sélectionner une option : ");
         switch(option) {
             case 1:
@@ -72,7 +70,7 @@ public class Main {
                 EtdController.showMenu();
                 break;
             default:
-                // code block
+                
                 showPrincipalMenu();
         }
         switch(option) {
@@ -93,7 +91,7 @@ public class Main {
                 EtdController.showMenu();
                 break;
             default:
-                // code block
+                 showPrincipalMenu();
         }
 
 
