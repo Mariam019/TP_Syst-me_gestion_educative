@@ -36,7 +36,7 @@ public class ServiceFil {
     public static boolean deleteFiliereById(int id){
         Filiere filiere = getFiliereById(id);
         if (filiere != null) {
-            return Fichiers.departements.remove(filiere); // Remove the department
+            return Fichiers.departements.remove(filiere); 
         }
         return false;
 
